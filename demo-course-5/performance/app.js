@@ -59,4 +59,4 @@ const main = async () => {
     const result2 = await forkFunction([1, 2, 3, 4]);
 }
 
-main();
+main().catch((e) => console.log(e));
